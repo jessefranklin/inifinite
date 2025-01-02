@@ -29,14 +29,77 @@
         h2 {
             color: #666;
         }
+        .section {
+            margin: 30px 0;
+            padding: 20px;
+            border-top: 1px solid #eee;
+        }
+        .team-member {
+            margin: 20px 0;
+            padding: 10px;
+            background-color: #f9f9f9;
+            border-radius: 4px;
+        }
+        .contact-form {
+            display: grid;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        .contact-form input,
+        .contact-form textarea {
+            padding: 8px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+        }
     </style>
 </head>
 <body>
     <h1>Welcome to Infinite</h1>
-    <p>This is a simple webpage about infinite possibilities.</p>
     <div class="content">
-        <h2>What we do</h2>
-        <p>We explore the boundless potential of creativity and innovation.</p>
+        <div class="section">
+            <h2>What we do</h2>
+            <p>We explore the boundless potential of creativity and innovation.</p>
+        </div>
+
+        <div class="section">
+            <h2>Our Mission</h2>
+            <p>To push the boundaries of what's possible and inspire others to do the same. We believe in creating solutions that make a lasting impact on the world.</p>
+        </div>
+
+        <div class="section">
+            <h2>Case Studies</h2>
+            <div class="case-study">
+                <h3>Project Alpha</h3>
+                <p>Revolutionizing the way we think about sustainable energy through innovative solar solutions.</p>
+            </div>
+            <div class="case-study">
+                <h3>Project Beta</h3>
+                <p>Creating smart urban spaces that adapt to community needs in real-time.</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Our Team</h2>
+            <div class="team-member">
+                <h3>Jane Doe</h3>
+                <p>Innovation Director</p>
+            </div>
+            <div class="team-member">
+                <h3>John Smith</h3>
+                <p>Technical Lead</p>
+            </div>
+        </div>
+
+        <div class="section">
+            <h2>Contact Us</h2>
+            <p>We'd love to hear from you! Get in touch with us to discuss your ideas.</p>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name">
+                <input type="email" placeholder="Your Email">
+                <textarea rows="4" placeholder="Your Message"></textarea>
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
     </div>
 </body>
 </html>
